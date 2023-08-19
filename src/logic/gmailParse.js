@@ -71,3 +71,4 @@ window.onload = function() {
         checkForEmailContent();
     }
 };
+
