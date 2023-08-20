@@ -3,18 +3,7 @@
     "name": "CRXJS React Vite Example",
     "version": "1.0.0",
     "action": { "default_popup": "index.html" },
-    "permissions": ["http://*/*", "https://*/*"],
-    "content_scripts": [
-      {
-        "matches": ["http://*/*", "https://*/*"],
-        "js": ["./src/logic/gmailParse.js"],
-        "all_frames": true,
-        "match_origin_as_fallback": false,
-        "match_about_blank": false,
-        "run_at": "document_idle",
-        "world": "ISOLATED"
-      }
-    ]
+    "permissions": ["http://*/*", "https://*/*"]
   }
 
   
