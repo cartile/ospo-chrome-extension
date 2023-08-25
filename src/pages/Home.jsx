@@ -2,6 +2,10 @@
 function Home ({logRoute, reportRoute}) {
     return (
     <div className="App">
+      <div id="loggedInContainer">
+        <p>Profile</p>
+        <p>Logout</p>
+      </div>
       <div id="middleContainer">
         <h1 id="extensionTitle">ospo</h1>
         <p>Track your career journey.</p>

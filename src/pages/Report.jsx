@@ -3,6 +3,10 @@ import leftArrow from '../assets/icons/leftArrow.svg'
 function Report ({homeRoute}) {
     return (
     <div className="App">
+      <div id="loggedInContainer">
+        <p>Profile</p>
+        <p>Logout</p>
+      </div>
       <div id="leftArrowContainer" onClick={homeRoute} class="prevent-select">
           <img src={leftArrow} alt="Back Arrow" draggable="false" />
       </div>
